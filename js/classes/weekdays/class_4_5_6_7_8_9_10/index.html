@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Window Methods</title>
+    <!-- <script src="./window_methods.js"></script> -->
+    <!-- <script src="./document_method.js"></script> -->
+    <!-- <script src="./local_storage.js"></script> -->
+    <script src="./closure.js"></script>
+    <style>
+      /* body {
+        width: 2000px;
+        height: 1000px;
+      } */
+      /* button {
+        position: fixed;
+      } */
+      /* button {
+        float: right;
+      } */
+      /* body * {
+        margin: 10px;
+        border: 1px solid blue;
+      } */
+      /* #myDiv {
+        border: 1px solid blue;
+        padding: 40px 0px;
+      } */
+      /* body {
+        padding: 50px;
+      }
+      .blue {
+        color: blue;
+      }
+      .red {
+        color: red;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <button onclick="stopMe()">Stop me</button> -->
+    <!-- <button onclick="openMe()">Open me</button>
+    <button onclick="closeMe()">Close me</button> -->
+    <!-- <div>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea repellendus
+      nam, corrupti nesciunt temporibus iste id atque aspernatur ratione
+      deleniti. Commodi ad iste recusandae beatae necessitatibus dolorem, nam
+      fuga voluptate!
+    </div> -->
+    <!-- <button onclick="scrollBy1()">Scroll By</button>
+    <br/>
+    <button onclick="scrollTo1()">Scroll To</button> -->
+    <!-- <button onclick="calculate()">Calculate</button> -->
+    <!-- <button onclick="opneNewWindow()">Create</button>
+    <br />
+    <button onclick="sizeTo1()">sizeTo</button>
+    <br />
+    <button onclick="sizeBy1()">sizeBy</button> -->
+    <!-- <input class="inputBox" type="text" value="some input" />
+    <button class="buttonClass">Button</button> -->
+    <!-- <div id="myDiv">
+      <input id="myInput" type="text" />
+    </div> -->
+    <!-- bubble -->
+    <!-- <div onclick="alert('The Handler')">
+      <span>if you click here, the handler will run</span>
+    </div> -->
+    <!-- <form onclick="alert('form')">
+      FORM
+      <div onclick="alert('div')">
+        DIV
+        <p onclick="alert('p')">P</p>
+      </div>
+    </form> -->
+    <!-- <form id="myForm">
+      FORM
+      <div>
+        DIV
+        <p>P</p>
+      </div>
+    </form> -->
+    <!-- <div onclick="alert('bubbling will not reach here')">
+      <button onclick="myFunction()">
+        Click me
+      </button>
+    </div> -->
+    <!-- <button id="myBtn">
+      Click me
+    </button> -->
+    <!-- <button onclick="removeEvent()">
+      remove
+    </button> -->
+    <!-- <p id="myId">Pragraph 1</p>
+    <p id="myId">Pragraph 2</p>
+    <p>Pragraph 3</p>
+    <button onclick="getById()">Id</button> -->
+    <!-- <p class="myClass">Pragraph 1</p>
+    <p class="myClass">
+      <span>
+        Pragraph 2
+      </span>
+    </p>
+    <p>Pragraph 3</p> -->
+    <!-- <input type="text" name="firstName" value="Peter" />
+    <input type="text" name="lastName" value="Parker" />
+    <input type="email" name="email" value="abc@gmail.com" /> -->
+    <!-- <button onclick="getByClass()">Class</button> -->
+    <!-- <button onclick="getByTag()">Tag</button> -->
+    <!-- <button onclick="getByName()">Name</button> -->
+    <!-- <h1>Heading 1</h1> -->
+    <!-- <h1>S<span class="blue">Heading 1</span></h1>
+    <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+    </ul> -->
+    <!-- <p>Pragraph 1</p>
+    <p class="myClass">
+      <span>
+        Pragraph 2
+      </span>
+    </p>
+    <p id="myId">Pragraph 3</p>
+    <p class="myClass">
+      <span>
+        Pragraph 4
+      </span>
+    </p> -->
+    <!-- <div>
+      Lorem <span class="myClass">ipsum</span> dolor sit amet
+      <span class="myClass">consectetur</span> adipisicing elit. Nulla
+      <span class="myClass">dignissimos</span> eligendi modi repudiandae fuga.
+      Incidunt <span class="myClass">quas</span> distinctio illum aperiam
+      repellendus adipisci!
+      <span class="myClass">Praesentium</span> reprehenderit illum similique,
+      doloremque enim <span class="myClass">ipsum</span> aliquam harum.
+    </div>
+    <a href="/">link1</a>
+    <a href="/" target="_blank">link2</a>
+    <a href="/">link3</a> -->
+    <!-- <button onclick="getByQuery()">Query</button> -->
+    <!-- <button onclick="getByQueryAll()">QueryAll</button> -->
+    <!-- <p id="innerTxt">
+      Lorem ipsum dolor sit amet consectetur     adipisicing elit. Accusamus autem
+      ducimus, <span>iusto facilis distinctio expedita</span>     dicta temporibus sequi beatae
+      consectetur, consequatur, rem sed    dolores similique velit repudiandae
+      commodi ex cumque!
+    </p>
+    <button onclick="innerHTMLFun()">innerHTML</button>
+    <button onclick="innerTextFun()">innerText</button> -->
+    <!-- <div id="myDiv"></div> -->
+    <!-- <ul id="myList">
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul> -->
+    <!-- <button onclick="createElementFun()">createEle</button>
+    <button onclick="removeElementFun()">removeEle</button>
+    <button onclick="replaceElementFun()">replaceEle</button> -->
+    <!-- <button onclick="insertBeforeFun()">insertBefore</button> -->
+    <!-- <h1>Heading 1</h1> -->
+    <!-- <input type="text" value="click"> -->
+    <!-- <button onclick="setAttributeFun()">setAttribute</button> -->
+    <!-- <button onclick="getAttributeFun()">getAttribute</button> -->
+    <!-- <button onclick="removeAttributeFun()">removeAttribute</button> -->
+    <!-- <button onclick="localStorageSetItem()">setLS</button>
+    <button onclick="sessionStorageSetItem()">setSS</button>
+    <button onclick="localStorageGetItem()">getLS</button>
+    <button onclick="sessionStorageGetItem()">getSS</button>
+    <button onclick="localStorageRemoveItem()">removeLS</button>
+    <button onclick="sessionStorageRemoveItem()">removeSS</button>
+    <button onclick="clearAllSS()">clearSS</button> -->
+    <!-- <script src="./document_method.js"></script> -->
+    <!-- <script src="./bubbling_capturing.js"></script> -->
+    <!-- <button onclick="increaseCount()">count</button> -->
+  </body>
+</html>
