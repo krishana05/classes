@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS</title>
+    <style>
+      .red {
+        color: red;
+      }
+    </style>
+    <script>
+      // document.write("Hello");
+      // document.write(3+4);
+      // console.log(3+4);
+      // var obj = {
+      //   name: "xyz"
+      // };
+      // console.log(obj);
+      // console.log(obj.name);
+      // var a;
+      // a = [10, true, "javascript"];
+      // a = [10, true, "javascript", {name: "xyz"}];
+      // console.log(a);
+      // console.log(a[0]);
+      // console.log(a[3].name);
+      // console.log(a.length);
+      // console.log(a[0], a[1], a[2]);
+      // a[1] = false;
+      // console.log("Changed array is :", a);
+      // var obj = {
+      //   name: "abc",
+      //   age: 21,
+      //   isIndian: true,
+      //   "is Male": true,
+      //   is_Female: false,
+      //   interest: ["cricket", "football"]
+      // };
+      // console.log(obj);
+      // console.log(obj.name);
+      // console.log(obj["is Male"]);
+      // console.log(obj.is_Female);
+      // console.log(obj.interest);
+      // console.log(obj.interest[0]);
+      //IIFE
+      // (function() {
+      //   document.write("Hello from function");
+      // })();
+      // function add(a, b) {
+      //   return a + b;
+      // }
+      // var res = add(3,4);
+      // document.write("result :", res);
+      // function fullName(firstName, lastName) {
+      //   // console.log(firstName);
+      //   // console.log(lastName);
+      //   // console.log(firstName + lastName);
+      //   return firstName + " " + lastName;
+      // }
+      // var result = fullName("Peter", "Parker");
+      // document.write("name :", result);
+    </script>
+    <!-- <script src="./window_method.js"></script> -->
+  </head>
+  <body>
+    <!-- <button onclick="alert('I m clicked')">Click</button> -->
+    <!-- <button onclick="clickMe(3,4)">Click</button> -->
+    <!-- <button id="myBtn" onclick="startTimer()">Start</button> -->
+    <!-- <button onclick="stopMe()">Stop</button> -->
+    <!-- <button onclick="openMe()">Open</button>
+    <button onclick="closeMe()">Close</button> -->
+    <!-- <li id="myList">Item 1</li> -->
+    <!-- <ul>
+      <li class="mylist">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+      </li>
+      <li class="mylist">list 2</li>
+      <li class="mylist">list 3</li>
+      <li class="mylist">list 4</li>
+      <li class="mylist">list 5</li>
+    </ul> -->
+    <!-- <form action="" style="height:100px;border: 1px solid red;padding: 20px">
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+    </form>
+    <form action="" style="height:100px;border: 1px solid green;padding: 20px">
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+    </form>
+    <button onclick="getByName()">Submit</button> -->
+    <!-- <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      <span>Span 1</span>
+      <span>Span 2</span>
+    </p>
+    <p id="para2">
+      Voluptatum vitae quo laudantium voluptate deleniti sapiente praesentium
+      quasi eius blanditiis
+    </p>
+    <p class="para3">
+      obcaecati corporis reiciendis qui dolor accusamus temporibus placeat
+      debitis est asperiores?
+    </p>
+    <h1>header 1</h1>
+    <h2>header 2</h2>
+    <a href="" target="_blank">link 1</a>
+    <a href="">link 2</a>
+    <p>
+      Lorem <span class="mySpan">ipsum</span> dolor sit amet consectetur
+      <span class="mySpan">adipisicing</span> elit. Ducimus dignissimos
+      <span class="mySpan">tenetur</span> placeat culpa mollitia quibusdam
+      <span class="mySpan">quasi</span> vitae tempore reiciendis ut impedit
+      <span class="mySpan">cupiditate</span> blanditiis nostrum, voluptates
+      excepturi, in <span class="mySpan">distinctio</span> dolorem quidem.
+    </p> -->
+    <!-- <h1>This is header1</h1>
+    <h1>This is header2</h1> -->
+    <!-- <button onclick="getByQuery()">query</button> -->
+    <!-- <button onclick="innerHtmlFun()">innerHtml</button>
+    <button onclick="innerTextFun()">innerText</button> -->
+    <!-- <div id="myDiv"></div> -->
+    <!-- <button onclick="createElementFun()">create</button> -->
+    <!-- <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+    </ul> -->
+    <!-- <h1>Header 1</h1>
+    <h1>Header 2</h1> -->
+    <!-- <input type="text" value="change" /> -->
+    <!-- <button onclick="removeElementFun()">remove</button> -->
+    <!-- <button onclick="replaceElementFun()">replace</button> -->
+    <!-- <button onclick="setAttrFun()">setAttr</button> -->
+    <!-- <button onclick="getAttrFun()">getAttr</button> -->
+    <!-- <button onclick="removeAttrFun()">removeAttr</button> -->
+    <!-- <input type="text" />
+    <button>remove</button> -->
+    <!-- <select id="stateDropdown" onchange="selected(value)">
+      <option value="Select" disabled selected>Select</option>
+      <option value="Bangalore">Bangalore</option>
+      <option value="New Delhi">New Delhi</option>
+    </select> -->
+    <!-- <select id="cityDropdown"></select> -->
+    <!-- <button onclick="createList()">create</button> -->
+    <!-- <button>event</button> -->
+    <!-- <button onclick="alert(this.tagName)">event</button> -->
+    <!-- <button onclick="setLocal()">setLItem</button>
+    <button onclick="setSession()">setSItem</button>
+    <button onclick="removeLocal()">removeLItem</button>
+    <button onclick="removeSession()">removeSItem</button> -->
+    <button onclick="getData()">getData</button>
+    <button onclick="postData()">postData</button>
+    <button onclick="deleteData()">deleteData</button>
+    <button onclick="updateData()">updateData</button>
+    <!-- <input type="text" oninput="changesFun(this.value)" />
+    <script src="./document_method.js"></script> -->
+    <!-- <script src="./es6_feature.js"></script> -->
+    <!-- <script src="./this.js"></script> -->
+    <!-- <script src="./call_bind_apply.js"></script> -->
+    <!-- <script src="./oops.js"></script> -->
+    <!-- <script src="./storage.js"></script> -->
+    <!-- <script src="./array_methods.js"></script> -->
+    <!-- <script src="./higher_order_method.js"></script> -->
+    <!-- <script src="./closure.js"></script> -->
+    <script src="./ajax.js"></script>
+  </body>
+</html>

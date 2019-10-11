@@ -1,0 +1,483 @@
+/* all styles will come here */
+/* body {
+        background-color: red;
+        color: white;
+      }
+      h1 {
+        background-color: white;
+        color: black;
+      } */
+div {
+  /* text-align: center; */
+  /* width: 400px; */
+  /* height: 100px; */
+  /* background-color: red; */
+  /* text-align: right; */
+  /* text-align: left; */
+  /* border: 1px solid red; */
+  /* border :1px dotted red; */
+  /* border: 1px dashed red; */
+  /* border: 1px double red; */
+  /* border: none; */
+  /* border-style: dashed solid; */
+  /* font-size: 32px; */
+}
+.parentDiv {
+  /* height: 200px;
+        width: 200px;
+        background-color: silver; */
+  /* margin: 50px 100px 100px; */
+  /* margin-top: 100px; */
+  /* margin-bottom: 100px; */
+  /* margin-left: 100px;
+        margin-right: 100px; */
+}
+.childDiv {
+  /* height: 100px; */
+  /* width: 100px; */
+  /* background-color: red; */
+  /* margin: 10px 20px 30px 20px; */
+  /* padding: 10px 20px 30px 40px; */
+  /* padding-top: 20px; */
+  /* padding-bottom: 40px; */
+  /* padding-left: 10px; */
+  /* padding-right: 20px; */
+  /* padding: 20px 30px 40px; */
+}
+#para {
+  /* font-size: 24px;
+        color: red; */
+  /* font-family: sans-serif; */
+  /* font-weight: bold; */
+  /* font-weight: 600;
+        font-style: italic; */
+  /* text-transform: uppercase;
+        text-transform: lowercase; */
+  /* text-transform: capitalize; */
+  /* text-align: center; */
+  /* text-align: left; */
+  /* text-align: right; */
+  /* text-align: justify; */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  /* letter-spacing: 5px; */
+  /* letter-spacing: -2px; */
+  /* line-height: 0.5; */
+  /* 0-1 -reduce */
+  /* line-height: 1.5; */
+  /* >1 -add */
+  /* word-spacing: 10px;
+        word-spacing: -5px; */
+}
+div {
+  /* display: inline; */
+  /* display: inline-block; */
+  /* height: 30px; */
+}
+/* #div1 {
+        background-color: orangered;
+      }
+      #div2 {
+        background-color: silver;
+        display: none;
+        visibility: hidden;
+      }
+      #div3 {
+        background-color: green;
+      }
+      span {
+        display: block;
+        background-color: purple;
+        height: 30px;
+      } */
+div {
+  /* height: 100px;
+        width: 100px;
+        background-color: orangered; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* overflow: auto; */
+  /* overflow: visible; */
+  /* overflow-y: hidden ; */
+}
+/* #div1 {
+        height: 200px;
+        width: 200px;
+        background-color: orangered;
+      }
+      #div2 {
+        height: 200px;
+        width: 200px;
+      }
+      #div21 {
+        height: 200px;
+        width: 100px;
+        background-color: silver;
+        float: left;
+      }
+      #div22 {
+        height: 200px;
+        width: 100px;
+        float: left;
+      }
+      #div221 {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+      }
+      #div222 {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+      }
+      #div3 {
+        height: 200px;
+        width: 200px;
+        background-color: green;
+      }
+      #div4 {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        float: inherit;
+      } */
+/* h1 {
+        text-shadow: 2px 2px 5px red;
+      } */
+/* p {
+        height: 260px;
+        width: 200px;
+        border: 1px solid;
+        word-wrap: break-word;
+        word-break: keep-all;
+        word-break: break-all;
+      } */
+/* div {
+        height: 250px;
+        width: 250px;
+        border: 1px solid green;
+        background-color: greenyellow;
+        border-radius: 50%;
+      } */
+/* img {
+        border-radius: 50%;
+        border: 2px solid blue;
+      } */
+/* div {
+        background-color: greenyellow;
+        height: 200px;
+      } */
+/* #myId {
+        background-color: red;
+        height: 300px;
+      } */
+/* h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      .redColor,
+      #myPara {
+        color: red;
+      } */
+/* .parentDiv {
+        height: 100px;
+      }
+      .childDiv {
+        background-color: green;
+        height: 50%;
+      } */
+/* html {
+        font-size: 10px;
+      } */
+/* .box {
+  font-size: 20px;
+  background-color: lightblue;
+  height: 20vh;
+  width: 100vw;
+}
+p {
+  font-size: 1.5em;
+  border: 1rem solid red;
+} */
+/* table,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+}
+th {
+  background-color: greenyellow;
+}
+td {
+  text-align: center;
+  background-color: chocolate;
+  color: white;
+  padding: 20px;
+}
+.tableBtn {
+  background-color: greenyellow;
+  border: 1px solid green;
+  border-radius: 5px;
+} */
+/* #container {
+  height: 400px;
+  width: 500px;
+  border: 1px solid;
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+input {
+  margin-top: 10px;
+  margin-left: 50px;
+} */
+
+/* .box1 {
+  float: left;
+  height: 250px;
+  width: 50%;
+  background-color: aquamarine;
+}
+.box2 {
+  float: left;
+  height: 250px;
+  width: 50%;
+  background-color: crimson;
+}
+.box3 {
+  float: left;
+  height: 250px;
+  width: 70%;
+  background-color: chocolate;
+}
+.box4 {
+  float: left;
+  height: 125px;
+  width: 30%;
+  background-color: darkblue;
+}
+.box5 {
+  float: left;
+  height: 125px;
+  width: 30%;
+  background-color: deeppink;
+} */
+
+/* outline */
+/* #outlineSolid{
+  border: 1px solid;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+  outline-width: medium;
+  outline-width: thick;
+  outline-width: 10px;
+  outline: none;
+} */
+/* #outlineDashed{
+  border: 1px solid;
+  outline-style: double;
+  outline-color: red;
+  margin-top: 10px; 
+} */
+
+/* max-width , max-height, min-width and min-height */
+/* #outlineSolid {
+  background-color: aqua;
+  display: inline-block;
+  min-width: 150px;
+  max-width: 300px;
+}
+#outlineDashed {
+  background-color: blueviolet;
+  min-height: 40px;
+  max-height: 100px;
+} */
+
+/* Pseudo-classes 
+link
+visited
+hover
+active
+syntax : css-selector:pseudo-class{
+
+*/
+/* un-visited link */
+/* a:link {
+  color: green;
+} */
+/* visited link */
+/* a:visited {
+  color: darkcyan;
+} */
+/* hover */
+/* a:hover {
+  color: pink;
+} */
+/* active link */
+/* a:active {
+  color: blue;
+} */
+
+/* div {
+  height: 50px;
+  width: 50px;
+  background-color: greenyellow;
+}
+div:hover {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: chocolate;
+} */
+
+/* CSS selectors */
+/*
+1. descendant selector (space)
+*/
+/* div p {
+  color: red;
+} */
+/*
+2. child selector (>)
+*/
+/* div > p {
+  color: red;
+} */
+/*
+3. Adjacent sibling selector (+)
+*/
+/* div + p {
+  color: blue;
+} */
+/*
+4. General sibling selector (~)
+*/
+/* div ~ p {
+  color: green;
+} */
+/* * {
+  color: red;
+} */
+/* a[target]{
+  color: deeppink;
+} */
+/* a[target=_blank]{
+  color: deeppink;
+} */
+/* a[href^="https"] {
+  color: rgb(255, 145, 20);
+} */
+/* a[href$="co.in"] {
+  color: rgb(255, 145, 20);
+} */
+/* a[href*="oo"] {
+  color: rgb(255, 145, 20);
+} */
+/* a[title~="microsoft"] {
+  color: rgb(255, 145, 20);
+} */
+/* Pseudo-elements 
+syntax : css-selector::pseudo-element{
+*/
+/* p {
+  color: green;
+}
+p::first-line {
+  color: red;
+}
+p::first-letter {
+  color: blue;
+  font-size: 32px;
+} */
+/* h1::first-letter {
+  color: blue;
+  font-size: 48px;
+} */
+/* h1::before{
+  content: 'P'
+} */
+/* h1::before {
+  content: url(./images/smily.gif);
+} */
+/* h1::after {
+  content: "P";
+} */
+/* h1::after {
+  content: url(./images/smily.gif);
+} */
+/* p:first-child{
+  background-color: yellow;
+} */
+/* .para:first-child {
+  background-color: yellow;
+} */
+/* p:last-child {
+  background-color: yellow;
+} */
+/* p:last-of-type {
+  background-color: yellow;
+} */
+/* p:only-child {
+  background-color: yellow;
+} */
+/* p:only-of-type {
+  background-color: yellow;
+} */
+/* p:nth-last-child(1) {
+  background-color: yellow;
+} */
+/* p:nth-last-of-type(1) {
+  background-color: yellow;
+} */
+/* p:nth-of-type(1) {
+  background-color: yellow;
+} */
+/* p:nth-child(1) {
+  background-color: yellow;
+} */
+/* p {
+  color: blue;
+}
+span {
+  color: blue;
+}
+:not(span) {
+  color: red;
+} */
+
+/* nav bar */
+ul {
+  width: 200px;
+  border: 1px solid;
+  background-color: silver;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  text-align: center;
+  border-bottom: 1px solid;
+}
+li:last-child {
+  border-bottom: none;
+}
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+a:hover {
+  background-color: grey;
+  color: white;
+}
+a.active {
+  background-color: green;
+}

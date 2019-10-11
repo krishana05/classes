@@ -1,0 +1,37 @@
+display
+
+//block level element
+div
+p
+h1-h6
+
+//inline element
+span
+a
+button
+img
+
+1. block
+2. inline (height will be ignored)
+3. inline-block (can give height)
+4. none (will not take space of hidden element)
+
+visibility:
+hidden (space will occupied)
+
+//Overflow - Specifies what happens if content overflows an element's box
+1. hidden
+2. scroll
+3. auto
+4. visible (default)
+5. overflow-x (horizontal)
+6. overflow-y (vertical)
+
+//float - specifies how an element should float.
+1. left - element will float to the left of its container
+2. right - element will float to the right of its container
+3. none - (default)- element does not float
+4. inherit - element inherits the float value of its parent
+
+//text-shadow - property applies shadow to text
+text-shadow: 2px 2px; (horizontal and vertical shadow)
